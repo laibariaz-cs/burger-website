@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>burger</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="asserts/css/style.css" />
+  </head>
+  <body>
+    <section class="header-section">
+  <div class="header-backgroud">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+      <div class="container position-relative">
+
+        <!-- Logo -->
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <img src="asserts/images/new logo.png" class="logo-img">
+          <span class="text-white fw-semibold ps-2">BURGER</span>
+        </a>
+
+        <!-- Toggle -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu CENTER / Offcanvas Right -->
+        <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body align-items-center justify-content-center">
+            <div class="navbar-nav nav-center text-center d-flex flex-lg-row flex-column gap-3 offcanvas-nav-links">
+              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link">Our outlets</a>
+              <a href="#" class="nav-link">Order</a>
+              <a href="#" class="nav-link">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Icons RIGHT -->
+        <!-- only change: hide on small screens -->
+        <div class="nav-icons d-none d-lg-flex align-items-center gap-3">
+          <i class="bi bi-search text-white"></i>
+          <i class="bi bi-handbag text-white"></i>
+          <i class="bi bi-list text-white"></i>
+        </div>
+
+      </div>
+    </nav>
+    <!-- navbar-end -->
+
+    <!-- grid -->
+    <div class="container">
+      <div class="row">
+
+        <!-- ONLY CHANGE HERE -->
+        <div class="col-lg-6 col-12">
+
+          <!-- reveiw box start -->
+          <div class="position-relative mt-5 d-inline-block">
+            <div class="position-absolute bg-light rounded-4 reveiw-box-abs w-100 h-100 opacity-75"></div>
+            <div class="position-relative bg-light rounded-4 p-4 reveiw-box-rel">
+              <div class="fs-5">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <div class="fs-4 mt-3">5k Happy review</div>
+              </div>
+            </div>
+          </div>
+          <!-- reveiw box end-->
+
+          <!-- headertext -->
+          <div>
+            <p class="text-white mt-5">Crispy, Crunchy, Veggie Deliciousness!</p>
+            <h1 class="text-white d-2 font-text">
+              Burgers That Love the Earth!
+            </h1>
+          </div>
+
+          <!-- buttons -->
+          <!-- ONLY CHANGE: flex responsive -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+            <button class="btn btn-light">Explore</button>
+            <div class="text-white p-3">
+              <i class="bi bi-play-circle"></i> How to get order...
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <!-- ONLY CHANGE HERE -->
+        <div class="col-lg-6 col-12 text-center position-relative mt-5 mt-lg-0">
+          <div class="star"></div>
+          <img src="asserts/images/burger1.png" class="img-fluid burger">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+    <!-- nextsection -->
+    <section class="py-5 ">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="text-center text-white mb-4">
+      <h4>- Hot Item -</h4>
+      <p>Locally sourced, organic ingredients for a fresh and eco-friendly experience</p>
+    </div>
+
+    <div class="row justify-content-center g-4">
+
+      <!-- Card -->
+      <div class="col-6 col-lg-3">
+        <div class="burger-card text-center">
+
+          <!-- Heart Icon -->
+          <i class="bi bi-heart heart-icon"></i>
+
+          <img src="asserts/images/secondpage/burger1 (2).png" class="img-fluid mb-3" alt="">
+
+          <h6>Veg Crispy Burger</h6>
+
+          <div class="d-flex justify-content-between align-items-center px-2">
+            <p class="mb-0">₹250.00</p>
+            <i class="bi bi-bag cart-icon"></i>
+          </div>
+
+          <!-- Arrow Button -->
+          <div class="arrow-box">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Repeat same for other cards -->
+      <div class="col-6 col-lg-3 mt-lg-5">
+        <div class="burger-card text-center">
+          <i class="bi bi-heart heart-icon"></i>
+          <img src="asserts/images/secondpage/burger2.png" class="img-fluid mb-3" alt="">
+          <h6>Hot Crispy Burger</h6>
+
+          <div class="d-flex justify-content-between align-items-center px-2">
+            <p class="mb-0">₹250.00</p>
+            <i class="bi bi-bag cart-icon"></i>
+          </div>
+
+          <div class="arrow-box">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd card -->
+      <div class="col-6 col-lg-3">
+        <div class="burger-card text-center">
+          <i class="bi bi-heart heart-icon"></i>
+          <img src="asserts/images/secondpage/burger3.png" class="img-fluid mb-3" alt="">
+          <h6>Veg Vegy Burger</h6>
+
+          <div class="d-flex justify-content-between align-items-center px-2">
+            <p class="mb-0">₹250.00</p>
+            <i class="bi bi-bag cart-icon"></i>
+          </div>
+
+          <div class="arrow-box">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4th card -->
+      <div class="col-6 col-lg-3 mt-lg-5">
+        <div class="burger-card text-center">
+          <i class="bi bi-heart heart-icon"></i>
+          <img src="asserts/images/secondpage/burger 4.png" class="img-fluid mb-3" alt="">
+          <h6>Veg Crispy Burger</h6>
+
+          <div class="d-flex justify-content-between align-items-center px-2">
+            <p class="mb-0">₹250.00</p>
+            <i class="bi bi-bag cart-icon"></i>
+          </div>
+
+          <div class="arrow-box">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+     <!-- newsection -->
+      <div class="container-fluid">
+  <div class="row mt-5">
+
+    <!-- ADD: flex-wrap for mobile -->
+    <div class="third-background d-flex flex-wrap justify-content-center align-items-center">
+
+      <!-- LEFT -->
+      <!-- CHANGE: col-5 → responsive -->
+      <div class="col-lg-5 col-12 text-center text-lg-start mb-4 mb-lg-0">
+        <div class="font-text2 text-white">
+          <p class="mb-1 fs-5">Get Up to</p>
+          <span>50% Of</span>
+          <p>On your two order’s</p>
+        </div>
+
+        <!-- FIX button width -->
+        <button class="btn btn-light rounded-4 px-3">
+          <span class="btn-text">Order Now</span>
+        </button>
+      </div>
+
+      <!-- RIGHT -->
+      <!-- CHANGE: col-7 → responsive -->
+      <div class="col-lg-7 col-12 text-center text-lg-end">
+        <img src="asserts/images/thirdpageimage.png" class="img-fluid w-75 p-2">
+      </div>
+
+    </div>
+
+  </div>
+</div>
+      <!-- newsection3 -->
+<div class="container">
+  <div class="row">
+
+    <div class="col-12">
+      <div class="text-white text-center d-3 mt-5">-Who we are-</div>
+    </div>
+
+    <!-- ADD: wrap -->
+    <div class="d-flex flex-wrap justify-content-center">
+
+      <!-- LEFT TEXT -->
+      <!-- CHANGE: col-6 → responsive -->
+      <div class="col-lg-6 col-12 mt-5 d-flex flex-wrap">
+
+        <!-- FIX: removed wrong attribute -->
+        <div class="text-white w-100 d-flex flex-column gap-3">
+
+          <div>
+            <p>Community-focused initiatives such as partnerships with local farms or environmental organizations.</p>
+          </div>
+
+          <div>
+            Nutritional information provided for each menu item, catering to health-conscious customers.
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <!-- CHANGE: col-6 → responsive -->
+      <div class="col-lg-6 col-12 mt-5 text-center">
+        <div class="bg-color avatar">
+          <img src="asserts/images/men.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+       <!-- nextsection -->
+       <section>
+         <div class=" container ">
+            <div class=" row">
+                <div class=" col-12 text-center fw-semibold text-white ">
+                    -HOW DOES IT WORKS-
+                
+                </div>
+                <!-- place card -->
+                 <div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-center text-center g-4">
+
+      <!-- CARD 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card-box position-relative">
+          
+          <div class="icon-box">
+            <i class="bi bi-fork-knife"></i>
+          </div>
+
+          <h5 class="mt-5 fw-bold text-danger">Choose Your Meals</h5>
+          <p class="mt-3 small text-danger">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          </p>
+
+          <div class="arrow">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card-box position-relative">
+          
+          <div class="icon-box">
+            <i class="bi bi-truck"></i>
+          </div>
+
+          <h5 class="mt-5 fw-bold text-danger">Track Order</h5>
+          <p class="mt-3 small text-danger">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          </p>
+
+          <div class="arrow">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card-box position-relative">
+          
+          <div class="icon-box">
+            <i class="bi bi-bag-check"></i>
+          </div>
+
+          <h5 class="mt-5 fw-bold text-danger">Collect Order</h5>
+          <p class="mt-3 small text-danger">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          </p>
+
+          <div class="arrow">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+            </div>
+         </div>
+       </section>
+       <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="display-6 text-center text-white">-What Our customer says-</div>
+            </div>
+          </div>
+        </div>
+        <!-- //crouser -->
+     <div id="cardCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Card 1 -->
+    <div class="carousel-item active">
+      <div class="card w-75 mx-auto shadow-sm border-0">
+        <img src="asserts/images/secondpage/photo1.webp" class="card-img-top custom-img" alt="">
+       
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="carousel-item">
+      <div class="card w-75 mx-auto shadow-sm border-0">
+        <img src="asserts/images/secondpage/photo1.webp" class="card-img-top custom-img" alt="">
+       
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+      <div class="carousel-item">
+      <div class="card w-75 mx-auto shadow-sm border-0">
+        <img src="asserts/images/secondpage/photo1.webp" class="card-img-top custom-img" alt="">
+       
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  
+</div>
+  
+
+ 
+</div>
+        </div>
+       </section>
+       <footer class="footer-background text-white pt-5 pb-3 mt-4">
+  <div class="container ">
+    <div class="row">
+
+      <!-- LEFT SECTION -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="asserts/images/new logo.png" class="logo-img2 me-2">
+          <h5 class="mb-0 fw-bold">Burger</h5>
+        </div>
+
+        <p class="small">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <p class="small mb-1">+91 9876543210</p>
+        <p class="small mb-1">Mail@gmail.com</p>
+        <p class="small">Xyz, any warde, location</p>
+      </div>
+
+      <!-- SERVICE -->
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h6 class="fw-bold">Service</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#">Burger</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Hot Item's</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <!-- FOLLOW US -->
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h6 class="fw-bold">Follow Us</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <!-- SUBSCRIBE -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h6 class="fw-bold">Subscribe For Updates</h6>
+        <div class="subscribe-box mt-3">
+          <input type="email" placeholder="Enter Email...">
+          <button>→</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM LINE -->
+    <div class="text-center mt-4 small border-top pt-3">
+      Burger.com © All rights reserved
+    </div>
+
+  </div>
+</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
